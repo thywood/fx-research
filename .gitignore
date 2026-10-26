@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+# Real broker exports stay local; only the synthetic sample is committed.
+data/*.csv
+!data/_synthetic_EURUSD_M15.csv

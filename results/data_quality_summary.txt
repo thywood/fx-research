@@ -1,0 +1,19 @@
+CSV: data/_synthetic_EURUSD_M15.csv
+Rows: 6238
+Date range: 2024-01-01 00:00:00 -> 2024-03-29 23:45:00
+Duplicate timestamps: 2
+Bad OHLC rows: 0
+Total gaps: 13
+Unexpected (non-weekend) gaps: 1
+Outlier bars: 2
+Flat/stale runs: 0
+
+Unexpected gaps:
+            gap_start             gap_end  gap_minutes  spans_weekend
+2 2024-01-15 09:30:00 2024-01-15 10:30:00         60.0          False
+
+Outlier bars:
+                         open      high       low     close       ret      ret_z    range_z
+datetime                                                                                   
+2024-01-08 05:00:00  1.081108  1.135749  1.080852  1.113851  0.030286  13.941345  14.032464
+2024-01-08 05:15:00  1.081409  1.082087  1.081350  1.082028 -0.028570  -9.638976  -0.007755
